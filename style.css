@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+body {
+    font-family: "Pixelify Sans";
+}
+
+.contact {
+    border-radius: 5px; 
+    background-color:#72CEB2;
+	color:#004B36;
+	padding: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited{
+    color:white;
+}
+
+a:hover{
+    color: #7DBDA5 ;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+.bg-green {
+    background-color: #025939 !important; 
+}
+.bg-green2 {
+    background-color: #03A63C !important; 
+}
+.bg-green3 {
+    background-color: #7DBDA5 !important; 
+}
+.bg-green4 {
+    background-color: #0B4A37 !important; 
+}
+.text-green {
+    color: #025939 !important; 
+}
+.text-green2 {
+    color: #03A63C !important; 
+}
+.text-green3 {
+    color: #7DBDA5 !important; 
+}
+.text-green4 {
+    color: #0B4A37 !important; 
+}
+
+h1 {
+    font-family: "Pixelify Sans";
+    color: #025939;
+	font-size: 2.4em;
+}
+
+h2 {
+    font-family: "Pixelify Sans";
+    color: #025939;
+	font-size: 2.2em;
+}
+h3 {
+    font-family: "Pixelify Sans";
+    line-height: 1.25em;
+	padding-bottom: 0em;
+    font-size: 2.0em;
+}
+h4 {
+    font-family: "Pixelify Sans";
+    line-height: 1.5em;
+	color: rgba(166,219,203,1.00)
+}
+.my-btn {
+    font-family: "Pixelify Sans";
+	background-color: rgba(41,157,44,1.00) !important;
+	color: rgba(13,64,43,1.00) !important;
+	text-decoration: none;
+	padding-left: .65em;
+	padding-right: .65em;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	margin-top: .5em !important;
+	margin-bottom: .5em !important;
+	border-radius: .4em;
+	font-size: .95em
+}
+.my-btn:hover {
+	background-color: rgba(13,64,43,1.00) !important;
+	color: rgba(41,157,44,1.00) !important;
+}
+
+.nav-item .nav-link {
+    font-size: 1.4em;
+}
+
+.nav-item .nav-link:hover {
+    color: #D0FCEF;
+}
+
+.skill-share {
+    font-family: "Pixelify Sans";
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+}
+
+.skill-share li {
+    font-family: "Pixelify Sans";
+    margin: 10px;
+	line-height: 1.2em;
+}
+
+.skill-bubble {
+    font-family: "Pixelify Sans";
+    border-radius: 5px;
+    background-color: rgba(13,64,43,1.00) !important;
+    color:white;
+    padding: 10px;
+}
+
+.standard-text {
+    font-size: 1.25rem; 
+    margin-bottom: 2.5rem;
+    color: white;
+}
+
+.standard-green {
+    font-size: 1.25rem; 
+    margin-bottom: 2.5rem;
+    color: #025939;
+}
+
+.green-text {
+    color: #025939;
+}
